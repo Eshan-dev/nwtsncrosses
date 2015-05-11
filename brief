@@ -1,0 +1,56 @@
+noughts and crosses
+
+Basis of game:
+
+    Two players
+    Each player assigned playing symbol (x and o)
+    One player plays  at a time
+    Player place’s their symbol on the grid
+    Symbol cannot be placed over another symbol
+    
+Objective of game:
+
+    Get three matching symbols in either a vertical, horizontal or diagonal placement to win the game
+    
+Issues of play:
+
+    A tie; where all boxes contain symbols but there are no matching three’s 9 (no winner)
+
+
+How it can work technically:
+
+    I need to create 9 clickable boxes the need to be able to deal with the following;
+                  
+                    Accepting and containing a symbol via a click event
+                    Not allow other symbol to overwrite containing symbol
+                    Able to talk to surrounding boxes to calculate a win
+
+    I need a random play event (ie, playing against the computer) generator to work along side the user driven events
+
+    I need to be able to keep the score (ie, if the user wants to play best of 5)
+
+    I need to be able to override the computer play generator so two humans can play each other
+
+  /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+  Style and ID
+....................
+
+Theme Ideas - southpark style 2d cut outs of polititions 
+              something vs something
+                  
+
+
+
+
+
+
+9 boxes
+once box is ‘checked’ it is fixed with that object
+computer randomly adds it own ‘play’
+
+once three are in a row a win is declared
+
+have 9 div’s as the objects hidden in the background
+
+grid framework using html and css
