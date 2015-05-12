@@ -25,11 +25,13 @@ How it can work technically:
                     Not allow other symbol to overwrite containing symbol
                     Able to talk to surrounding boxes to calculate a win
 
-    I need a random play event (ie, playing against the computer) generator to work along side the user driven events
+        For advanaced game;
 
-    I need to be able to keep the score (ie, if the user wants to play best of 5)
+                    I need a random play event (ie, playing against the computer) generator to work along side the user driven events
 
-    I need to be able to override the computer play generator so two humans can play each other
+                    I need to be able to keep the score (ie, if the user wants to play best of 5)
+
+                    I need to be able to override the computer play generator so two humans can play each other
 
   /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
@@ -37,20 +39,27 @@ How it can work technically:
 ....................
 
 Theme Ideas - southpark style 2d cut outs of polititions 
-              something vs something
-                  
+                cameron vs sturgen
+                boris johnson vs the real world
 
+              something vs something (funny?)
+                beards vs taches's
+                cops vs robbers
+                white dog poop vs bagged dog poop  :-/
 
+  /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
+Tech ideas
 
-
-
-9 boxes
-once box is ‘checked’ it is fixed with that object
-computer randomly adds it own ‘play’
-
-once three are in a row a win is declared
-
-have 9 div’s as the objects hidden in the background
+have 9 div’s as the objects hidden in the background?
 
 grid framework using html and css
+
+
+
+
+
+
+
+
+
