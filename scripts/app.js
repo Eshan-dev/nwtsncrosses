@@ -23,18 +23,34 @@ $(document).ready(function() {
 
     }
   });
- 
-
-
-
- function playerWin {
-  $.this(winSeq === true)
- }
-
-
-
 });
 
+
+
+//  function playerWin {
+//   $.this(winSeq === true)
+//  }
+
+
+
+
+
+
+soundManager.setup({
+ url: '../audiofiles/',
+ onready: function() {
+
+
+ $('#intro').on('click', function(){
+     var mySound = soundManager.createSound({
+       url: 'audio/starwarsthemenew.mp3'
+     });
+     mySound.play();
+   });
+
+},
+ ontimeout: function() {
+ }
 
 
  
