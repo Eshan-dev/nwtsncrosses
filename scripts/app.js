@@ -1,24 +1,25 @@
-// create 9 'empty' divs (for play area) OR a var for boxes
+// create 9 'empty' divs (for play area) 
 // make functions for each empty playable div
-//  make ('for')? loop to calculate wins - eep? 
-//  
-    
+//  make ('for')? loop to calculate wins - eep? or use var string?
 // caluclate win/tie
-
-$(document).ready(function() {
-    console.log( 'im heerrre' );
-
-
-// $('#playerinput').on("click", function() {
-  // console.log( "You clicked a player input!" );
+// $('#box1').on('click', function() {
+//     console.log('you clicked box1');
 // });
 
-$('#box1').on('click', function() {
-    console.log('you clicked box 1');
 
-});
+$(document).ready(function() {
+    // console.log( 'im heerrre' );
 
+var xTurn = []
+var oTurn = []
+var nextTurn = []
+var thisTurn = []
+var playerInput = ['','','','','','','','','']
 
+$('.playerInput').on('click', function(){
+  var xTurn 
+
+  });
 });
 
 
