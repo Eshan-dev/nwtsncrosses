@@ -23,7 +23,7 @@ How it can work technically:
                   
                     Accepting and containing a symbol via a click event
                     Not allow other symbol to overwrite containing symbol
-                    Able to talk to surrounding boxes to calculate a win
+                    Able to talk to surrounding boxes to calculate a win (array)
 
         For advanaced game;
 

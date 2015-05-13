@@ -9,8 +9,6 @@ $( document ).ready(function() {
     console.log( "im heerrre" );
 });
 
-$('#playerinput').on('click', function(){
-     var
  
  
     
