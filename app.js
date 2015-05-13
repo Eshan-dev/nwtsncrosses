@@ -5,12 +5,24 @@
     
 // caluclate win/tie
 
-$( document ).ready(function() {
-    console.log( "im heerrre" );
+$(document).ready(function() {
+    console.log( 'im heerrre' );
+
+
+// $('#playerinput').on("click", function() {
+  // console.log( "You clicked a player input!" );
+// });
+
+$('#box1').on('click', function() {
+    console.log('you clicked box 1');
+
 });
 
-$('#playerinput').on('click', function(){
-     var
+
+});
+
+
+
  
  
     
