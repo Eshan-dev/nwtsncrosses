@@ -1,24 +1,23 @@
-// create 9 'empty' divs (for play area) 
-// make functions for each empty playable div
-//  make ('for')? loop to calculate wins - eep? or use var string?
-// caluclate win/tie
-// $('#box1').on('click', function() {
-//     console.log('you clicked box1');
-// });
-
-
 $(document).ready(function() {
-    // console.log( 'im heerrre' );
+   
 
-var xTurn = []
-var oTurn = []
-var nextTurn = []
-var thisTurn = []
-var playerInput = ['','','','','','','','','']
+  // var winSeq ['1', '2', '3'],['1', '4', '7'],['2', '5', '8'],['3', '6', '9'],['4', '5', '6'],['7', '8', '9'],['7', '5', '3'];
 
-$('.playerInput').on('click', function(){
-  var xTurn 
+  // var start = "o";
+  // var xTurn = ['xTurn'];
+  // var oTurn = [];
+  var thisTurn = 'xTurn';
+  var grid = ['','','','','','','','',''];
 
+  $('.playerInput').on('click', function(){
+    if (thisTurn === 'xTurn') {
+      this.textContent='x'; 
+      console.log(this);
+      thisTurn = 'oTurn';
+    } else {
+      this.textContent='o'; 
+      thisTurn ='xTurn'
+    }
   });
 });
 
@@ -28,8 +27,7 @@ $('.playerInput').on('click', function(){
  
     
 
- 
-
+  
   
 
 
