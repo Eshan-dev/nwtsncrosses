@@ -10,14 +10,16 @@ $(document).ready(function() {
     var id= Number($(this).attr('id'));
     if (thisTurn === 'xTurn') {
         player = 'x'
-        this.textContent= player; 
+       $( this ).css( "background", 'url(images/saberblue.png)' )
+        console.log(this)
+        // debugger;
         thisTurn = 'oTurn';
         grid[id -1] = 'x' 
         checkWin(player) 
       // console.log(grid) 
     } else {
         player = 'o'
-        this.textContent= player; 
+        $( this ).css( "background", 'url(images/saberred.png)' )
         thisTurn ='xTurn'
         grid[id -1] = 'o'
         checkWin(player)
@@ -35,46 +37,34 @@ function checkWin(player){
       }
     }
   } 
-
-
 soundManager.setup({
 url: '../audio/',
 onready: function() {
 
    $('.playerInput').on('click', function(){
      var mySound = soundManager.createSound({
-       url: 'audio/Lightsaber Clash-SoundBible.com-203518049.mp3'
+       url: 'audio/Lightsaber Clash-SoundBible.com-203518049.mp3',
      });
      mySound.play();
-   });
-
-
-
- var mySound = soundManager.createSound({
-  url: 'audio/starwarsthemenew.mp3',
-  autoPlay: true,
-  loops: 4,
-  pan: -75,
-  volume: 25
 });
+      var mySound = soundManager.createSound({
+          url: 'audio/starwarsthemenew.mp3',
+          autoPlay: true,
+          loops: 2,
+          pan: -75,
+          volume: 25
 
-},
- ontimeout: function() {
- }
- });
   });
+},
+
+ // ontimeout: function() {
+ //    }
+  });
+
+
+});
  
-//need to push player moves into array to check if winning array
-// track moves by player
 
-
-// fucntion checkWin, cehck that against player
-// 2x array 1x x move 1 x o moves nd store moves 
-// winning combo array
-//wining grid array
-// mxoves [ 0.1,2 etc]
-
- 
 
 
 
