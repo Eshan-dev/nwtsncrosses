@@ -18,7 +18,7 @@ $(document).ready(function() {
 
    
   var player = ''
-  var winSeq = [[1, 2, 3], [1, 4, 7], [2, 5, 8],[3, 6, 9], [4, 5, 6], [7, 8, 9], [3, 5, 7]];
+  var winSeq = [[0, 1, 2], [0, 3, 6], [1, 4, 7],[2, 5, 8], [3, 4, 5], [6, 7, 8], [2, 4, 6]];
   var thisTurn = 'xTurn';
   var grid = ['','','','','','','','',''];
 
@@ -29,21 +29,39 @@ $(document).ready(function() {
         player = 'x'
         this.textContent= player; 
         thisTurn = 'oTurn';
-        grid[id -1] = 'x'  
-      console.log(grid) 
+        grid[id -1] = 'x' 
+        checkWin(player) 
+      // console.log(grid) 
     } else {
         player = 'o'
         this.textContent= player; 
         thisTurn ='xTurn'
         grid[id -1] = 'o'
-      console.log(grid) 
+        checkWin(player)
+      // console.log(grid) 
 
      }
    });
-  });
+function checkWin(player){
 
-function checkWin(winSeq)
-var playArray === winSeq.sort()
+    
+    for(i = 0; i < winSeq.length; i++) {
+      for (s = 0; s < grid.length; s++) {
+        if (grid[s] === player){
+          if(winSeq[i][] === s){
+            console.log('matches' + winSeq[i])
+          }
+
+        }
+      }
+    }
+  } 
+});
+
+ 
+//need to push player moves into array to check if winning array
+// track moves by player
+
 
 // fucntion checkWin, cehck that against player
 // 2x array 1x x move 1 x o moves nd store moves 
@@ -51,14 +69,6 @@ var playArray === winSeq.sort()
 //wining grid array
 // mxoves [ 0.1,2 etc]
 
-  // $('.playerInput').on('click', function(){
-  // var id= Number($(this).attr('id'));
-  // if (thisTurn === winSeq) {
-  //   } else {
-  //       thisTurn === winSeq
-  //     console.log(winSeq) 
-
-  //  });
  
 
 
