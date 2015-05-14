@@ -2,25 +2,22 @@
 body {
     background:url('gifs/giphy.gif') no-repeat;
     background-size: cover; 
-    height:300%;
-    width:300%;
+    height: 500%;
+    width: 500%;
 }
 
-h1 {
-  font-size: 90px;
-  margin-left: 200px;
-
-}
 
 
 .playerInput {
  
-  border-style: outset;
-  width: 100px;
-  height: 100px;
+  background:url('images/deathStar.png') no-repeat;
+  width: 120px;
+  height: 120px;
+  border-style: none;
   display: inline-block;
-  color: red;
-  border-radius: 55px;
+  border-radius: 95px;
+  vertical-align: top;
+
 
 }
 .wrapper {
@@ -32,24 +29,16 @@ h1 {
 }
 .row1 {
   display: inline-block;
-  font-size: 70px;
 
 }
 .row2 {
   display: inline-block; 
-  font-size: 70px;
-  vertical-align: top;
 }
 .row3 {
   display: inline-block;
-  font-size: 70px;
-  vertical-align: top;
 }
 
-.soundButton {
-  width: 50px;
-  height: 50px;
-}
+
 
 
 
