@@ -43,8 +43,17 @@ body {
   display: inline-block;
 }
 
-.sithicon {
- margin-right: 50px;
+.yodaRefresh {
+
+  background:url('images/yoda.png') no-repeat;
+  margin-bottom: 5px;
+  height: 100px;
+  width: 100px;
+  border-radius: 95px;
+}
+
+.yodaRefresh:hover {
+
 }
 
 
