@@ -1,12 +1,18 @@
 
+
+
+
 body {
     background:url('gifs/giphy.gif') no-repeat;
     background-size: cover; 
     height: 500%;
     width: 500%;
+    cursor: url(http://cur.cursors-4u.net/mechanics/mec-2/mec156.cur), progress !important;
 }
 
-
+.starwarslogo {
+    margin-left: 250px;
+}
 
 .playerInput {
  
@@ -17,15 +23,14 @@ body {
   display: inline-block;
   border-radius: 95px;
   vertical-align: top;
-
-
+  cursor: url(http://cur.cursors-4u.net/mechanics/mec-2/mec156.cur), progress !important;
 }
+
+
 .wrapper {
   width: 400px;
   height: 400px;
-  margin-top: 150px;
-  margin-left: 500px;
-
+  margin-left: 485px;
 }
 .row1 {
   display: inline-block;
@@ -38,8 +43,15 @@ body {
   display: inline-block;
 }
 
+.sithicon {
+ margin-right: 50px;
+}
 
 
 
+
+
+
+b
 
 
