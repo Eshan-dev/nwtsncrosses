@@ -2,7 +2,7 @@
 
 STAR WARS - The revenge of tick, tak and toe v0.1
 
-What is it? - a game based on tick tak toe (nought and crosses) using star wars imagary
+What is it? - A Game based on Tik Tak Toe (nought and crosses) using star wars imagary
 
 System requirements;
 
